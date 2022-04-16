@@ -1,4 +1,4 @@
-package spigot
+package main
 
 import (
 	"math/big"
