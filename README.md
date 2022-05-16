@@ -8,3 +8,4 @@ Reference: https://rosettacode.org/wiki/Pi#Go
 
 # Action Items
 1. To deploy to Heroku
+2. To create endpoints for calling from FE.
