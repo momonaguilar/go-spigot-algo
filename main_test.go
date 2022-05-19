@@ -20,3 +20,10 @@ func TestGetPiPrecision20(t *testing.T) {
 	pi := spigot.GetPi()
 	fmt.Println("TEST: Pi value is: ", pi)
 }
+
+func TestGetPiPrecisionInvalid(t *testing.T) {
+	fmt.Print("INFO: Starting test...")
+	spigot.Precision = -1
+	pi := spigot.GetPi()
+	fmt.Println("TEST: Pi value is: ", pi)
+}
