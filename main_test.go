@@ -7,6 +7,13 @@ import (
 	spigot "github.com/momonaguilar/go-spigot-algo"
 )
 
+func TestGetPiPrecision0(t *testing.T) {
+	fmt.Print("INFO: Starting test...")
+	spigot.Precision = 0
+	pi := spigot.GetPi()
+	fmt.Println("TEST: Pi value is: ", pi)
+}
+
 func TestGetPiPrecision10(t *testing.T) {
 	fmt.Print("INFO: Starting test...")
 	spigot.Precision = 10
